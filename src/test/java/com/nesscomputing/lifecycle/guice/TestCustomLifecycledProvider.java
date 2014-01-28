@@ -18,17 +18,16 @@ package com.nesscomputing.lifecycle.guice;
 
 import java.util.Map;
 
+import com.google.common.collect.Maps;
+
+import com.nesscomputing.lifecycle.DefaultLifecycle;
+import com.nesscomputing.lifecycle.Lifecycle;
+import com.nesscomputing.lifecycle.LifecycleStage;
+
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.junit.Assert;
 import org.junit.Test;
-
-import com.google.common.collect.Maps;
-import com.nesscomputing.lifecycle.DefaultLifecycle;
-import com.nesscomputing.lifecycle.Lifecycle;
-import com.nesscomputing.lifecycle.LifecycleStage;
-import com.nesscomputing.lifecycle.guice.AbstractLifecycleProvider;
-import com.nesscomputing.lifecycle.guice.LifecycleAction;
 
 public class TestCustomLifecycledProvider
 {

@@ -24,9 +24,6 @@ import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.nesscomputing.lifecycle.LifecycleDriver;
-import com.nesscomputing.lifecycle.LifecycleStage;
-
 
 public class TestLifecycleDriver
 {

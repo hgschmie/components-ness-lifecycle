@@ -18,11 +18,6 @@ package com.nesscomputing.lifecycle.guice;
 
 import java.util.Map;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
-import org.junit.Assert;
-import org.junit.Test;
-
 import com.google.common.collect.Maps;
 import com.google.inject.Binder;
 import com.google.inject.Guice;
@@ -30,12 +25,15 @@ import com.google.inject.Injector;
 import com.google.inject.Module;
 import com.google.inject.Provider;
 import com.google.inject.Scopes;
+
 import com.nesscomputing.lifecycle.DefaultLifecycle;
 import com.nesscomputing.lifecycle.Lifecycle;
 import com.nesscomputing.lifecycle.LifecycleStage;
-import com.nesscomputing.lifecycle.guice.DelegatingLifecycleProvider;
-import com.nesscomputing.lifecycle.guice.LifecycleAction;
-import com.nesscomputing.lifecycle.guice.LifecycleProvider;
+
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class TestDelegatingLifecycleProvider
 {

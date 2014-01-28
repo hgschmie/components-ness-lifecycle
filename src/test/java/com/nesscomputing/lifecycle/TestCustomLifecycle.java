@@ -18,12 +18,6 @@ package com.nesscomputing.lifecycle;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.nesscomputing.lifecycle.AbstractLifecycle;
-import com.nesscomputing.lifecycle.Lifecycle;
-import com.nesscomputing.lifecycle.LifecycleDriver;
-import com.nesscomputing.lifecycle.LifecycleListener;
-import com.nesscomputing.lifecycle.LifecycleStage;
-
 
 public class TestCustomLifecycle
 {

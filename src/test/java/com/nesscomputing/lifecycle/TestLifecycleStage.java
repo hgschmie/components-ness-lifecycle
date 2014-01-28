@@ -21,8 +21,6 @@ import static org.hamcrest.CoreMatchers.not;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.nesscomputing.lifecycle.LifecycleStage;
-
 public class TestLifecycleStage
 {
     @Test

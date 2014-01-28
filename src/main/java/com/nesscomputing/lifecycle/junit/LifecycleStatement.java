@@ -15,18 +15,19 @@
  */
 package com.nesscomputing.lifecycle.junit;
 
-import org.junit.rules.TestRule;
-import org.junit.runner.Description;
-import org.junit.runners.model.Statement;
-
 import com.google.common.annotations.VisibleForTesting;
 import com.google.inject.Module;
+
 import com.nesscomputing.lifecycle.DefaultLifecycle;
 import com.nesscomputing.lifecycle.Lifecycle;
 import com.nesscomputing.lifecycle.LifecycleStage;
 import com.nesscomputing.lifecycle.ServiceDiscoveryLifecycle;
 import com.nesscomputing.lifecycle.guice.AbstractLifecycleModule;
-import com.nesscomputing.testing.lessio.AllowAll;
+
+import org.junit.rules.TestRule;
+import org.junit.runner.Description;
+import org.junit.runners.model.Statement;
+import org.kitei.testing.lessio.AllowAll;
 
 /**
  * Test rule to run lifecycle start and stop for unit tests. Unfortunately, this must be run around a method (after \#0064Before and before \#0064After annotations), so

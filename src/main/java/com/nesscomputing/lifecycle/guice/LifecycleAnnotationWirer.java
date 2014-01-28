@@ -16,6 +16,7 @@
 package com.nesscomputing.lifecycle.guice;
 
 import com.google.inject.Inject;
+
 import com.nesscomputing.lifecycle.Lifecycle;
 
 

@@ -16,16 +16,16 @@
 package com.nesscomputing.lifecycle.guice;
 
 
-import org.junit.Assert;
-import org.junit.Test;
-
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.google.inject.Stage;
+
 import com.nesscomputing.lifecycle.DefaultLifecycle;
 import com.nesscomputing.lifecycle.Lifecycle;
 import com.nesscomputing.lifecycle.ServiceDiscoveryLifecycle;
-import com.nesscomputing.lifecycle.guice.LifecycleModule;
+
+import org.junit.Assert;
+import org.junit.Test;
 
 public class TestLifecycleModule
 {

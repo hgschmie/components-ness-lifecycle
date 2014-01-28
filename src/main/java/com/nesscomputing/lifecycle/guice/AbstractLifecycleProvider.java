@@ -21,12 +21,13 @@ import java.util.List;
 
 import javax.annotation.Nonnull;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-
 import com.google.inject.Inject;
+
 import com.nesscomputing.lifecycle.Lifecycle;
 import com.nesscomputing.lifecycle.LifecycleListener;
 import com.nesscomputing.lifecycle.LifecycleStage;
+
+import org.apache.commons.lang3.builder.ToStringBuilder;
 
 /**
  * Base class for providers that want to hook the objects they provide into the Lifecyle. Any class extending this base class

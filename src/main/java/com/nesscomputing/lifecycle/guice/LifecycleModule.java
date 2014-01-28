@@ -16,6 +16,7 @@
 package com.nesscomputing.lifecycle.guice;
 
 import com.google.inject.Scopes;
+
 import com.nesscomputing.lifecycle.DefaultLifecycle;
 import com.nesscomputing.lifecycle.Lifecycle;
 
